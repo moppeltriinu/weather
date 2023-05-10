@@ -7,8 +7,9 @@ function weatherDataFetch(city){
     .then(function(data) {
     console.log(data);
     })
-    .catch(function() {
+    .catch(function(error) {
     //catch any errors
+        console.log(error)
     })
 }
 
